@@ -1,0 +1,302 @@
+/*Table of contennt*
+1. General Css
+2 Index page
+3.Home
+4.
+*/
+
+
+/*=== General Css ===*/
+/*====  Background Image ===*/
+.MaiWraper{
+ 
+  background-image: url(images/logohd.jpg);
+  background-size: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  cursor: pointer;
+}   
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+
+}
+
+:root {
+
+  --bg-white: #fff;
+
+  --color-danger: #A32727;
+  --text-danger: #A32727;
+
+
+}
+.Main-Wrapper{
+  margin: 30px 0 0 0 ;
+}
+
+html {
+  height: 100%
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+  color: var(--text-danger);
+}
+
+
+.navbar {
+  background-color: var(--color-danger);
+}
+
+a {
+  text-decoration: none;
+  color:var(--text-danger)
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: aliceblue;
+  padding-right: 40px;
+  font-size: 1rem;
+}
+
+.navbar-toggler{
+ background-color: var(--bg-white);
+}
+
+/*== User profile ==*/
+.user-pic{
+  width: 40px;
+border-radius: 50%;
+margin-right: 15px;
+
+}
+.profile{
+  position: fixed;
+  left: 100px;
+}
+h1 {
+  color: var(--text-danger);
+  font-size:2rem;
+  font-weight: 400;
+  
+}
+
+.df li {
+  color: var(--text-danger);
+  font-weight: 500;
+}
+
+.fa-arrow-left {
+  color: var(--color-danger);
+  font-size: 1.5rem;
+
+}
+.fa-file-pdf{
+  color: black;
+}
+p{
+  color: var(--text-danger);
+}
+/*=== Index page === */
+
+.main{
+  margin-top: auto;
+}
+.main .form-control{
+  border: 4px solid var(--text-danger);
+   border-radius:30px;
+}
+
+
+  
+ 
+
+
+
+
+
+/* === HomePage  ===*/
+.Homepage-Wrapper .list-group .list-group-item{
+  color: var(--text-danger);
+  line-height: 1rem;
+  font-weight: 400;
+  
+
+}
+.Homepage-Wrapper .list-group .list-group-item :focus{
+  background-color: var(--bg-white);
+}
+
+
+
+
+/*===Profie Wrapper ====*/
+.Profile-Wrapper{
+  margin: 30px 0 0 0 ;
+}
+.Profile-Wrapper .list-group li{
+  color:var(--text-danger);
+  line-height: 1rem;
+  
+}
+
+
+.main-btn{
+  border-radius: 30px;
+  background-color: var(--color-danger);
+  color:var(--bg-white);
+  padding: 5px 25px 5px 25px;
+}
+
+.main-btn:hover{
+
+  color:yellow;
+box-shadow: none;
+}
+
+/* == Search  Notification ==*/
+
+.Searchnotification-Wrapper form{
+
+  border-radius:25px;
+  position:relative;
+  box-shadow: none;
+ }
+
+.Searchnotification-Wrapper input{
+width:100%;
+height:100%;
+display:block;
+font-size:15px;
+border-radius:25px;
+padding:8px 40px 8px 20px;
+border:3px solid var(--text-danger);
+box-shadow: none;
+/* box-shadow:0 5px 8px 3px black */
+}
+.Searchnotification-Wrapper button{
+  position:absolute;
+  top:0;
+  right:0;
+  width:50px;
+  height:100%;
+  border-radius:50%;
+  cursor:pointer;
+  border:none;
+  background:none
+}
+.Searchnotification-Wrapper   .list-group .list-group-item  {
+  border: none;
+  text-decoration: none;
+  color: var(--color-danger);
+  line-height: 1rem;
+  
+  
+  }
+  /*=== Change Password ===*/
+.Changed-Wrapper input[type="password"]{
+    /* width:50%; */
+    height:100%;
+    display:block;
+    font-size:15px;
+    border-radius:25px;
+    padding:8px 40px 8px 20px;
+    border:3px solid var(--text-danger);
+    /* box-shadow:0 5px 8px 3px black */
+    }
+    input[type="password"]{
+      box-shadow: none;
+    }
+
+    input[type="checkbox"]{
+      width: 20px ;
+      border: 2px solid var(--text-danger);
+    } 
+    input[type="checkbox"]:focus{
+      width: 20px ;
+      border: 2px solid var(--text-danger);
+      box-shadow: none;
+    }
+    /*=== Notification===*/
+    .Notification-Wrapper .list-group .list-group-item{
+      border: none;
+      color: var(--text-danger);
+      line-height: 1rem;
+    }
+    
+
+    /*===Access Member ===*/
+    .Access-Wrapper .form-control{
+      border: 1.5px solid var(--text-danger);
+       border-radius:15px;
+       height: 30px;
+       padding: 12 12 5 12px;
+    }
+    .Access-Wrapper ::placeholder{
+      font-size: 12px;
+      color: var(--text-danger);
+    }
+    .Access-Wrapper .form-control{
+      border: 1.5px solid var(--text-danger);
+       border-radius:15px;
+       height: 30px;
+       padding: 12 12 5 12px;
+    }
+    .Access-Wrapper a p,
+    .Member-Wrapper a ,
+    .Remove-Wrapper a p{
+    color: red;
+    }
+    
+
+    /*=== Member History===*/
+    .list-group .list-group-item{
+   
+    border:none;
+    color:var(--text-danger)
+
+    }
+    
+
+     /*=== Member History===*/
+     .Details-Wrapper .list-group li{
+      color:var(--text-danger);
+      line-height: 1rem;
+      
+    }
+    .Details-Wrapper .main-btn{
+      border-radius: 30px;
+      background-color: var(--color-danger);
+      color:var(--bg-white);
+      font-size:0.8rem;
+      padding: 5 10 5 10;
+  width: 170px;
+ 
+    }
+    /*== Remove Notification ==*/
+
+    /* search staff Member */
+   .card{
+    background-color: var(--text-danger);
+  border-radius: 30px;
+  
+  height: 120px;
+  }
+  .card p{
+    color: var(--bg-white);
+  }
+  

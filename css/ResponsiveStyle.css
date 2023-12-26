@@ -1,0 +1,61 @@
+
+@media (min-width: 1400px)
+{
+   
+}
+@media (min-width: 1200px)
+{
+
+
+}
+/*===========================================*/
+@media (max-width: 991px)
+{
+  
+
+
+  .Remove-Wrapper h1{
+    font-size: 2rem;
+    
+    
+  }
+
+
+
+}
+@media (max-width: 768px)
+{
+
+
+   
+  .Notification-Wrapper .list-group .list-group-item{
+    border: none;
+    color: var(--text-danger);
+    line-height: 0.5rem;
+ 
+
+  }
+  h1{
+    font-size: 1.5rem;
+    
+    
+  }
+  .card{
+    background-color: var(--text-danger);
+  border-radius: 30px;
+  
+  height: 180px;
+  }
+  .Member-Wrapper p{
+    font-size: 9px;
+  }
+
+}
+@media (max-width: 414px)
+{
+  h1{
+    font-size: 1.2rem;
+    text-shadow: salmon;
+  }
+  
+}
